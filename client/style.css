@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0; /* Light gray background */
+}
+
+#landing-screen {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+}
+
+#landing-screen h1 {
+  color: #333;
+}
+
+#landing-screen button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  background-color: #4caf50; /* Green button background */
+  color: white; /* White text color */
+  border: none; /* Remove button border */
+  cursor: pointer; /* Add cursor pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+#landing-screen button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+#leaderboard-table {
+  width: 60%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+#leaderboard-table thead th {
+  background-color: #333;
+  color: #fff;
+  padding: 12px;
+  text-align: left;
+}
+
+#leaderboard-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#leaderboard-table tbody td {
+  padding: 8px 12px;
+}
