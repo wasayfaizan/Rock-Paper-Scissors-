@@ -41,6 +41,7 @@ body {
   border-collapse: collapse;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   background-color: #fff;
+  background-color: #4caf50;
 }
 
 #leaderboard-table thead th {
@@ -56,4 +57,22 @@ body {
 
 #leaderboard-table tbody td {
   padding: 8px 12px;
+}
+#instructions button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  background-color: #4caf50; 
+  color: white;
+  border: none; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease;
+}
+
+#result {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
