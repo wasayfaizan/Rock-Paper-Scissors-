@@ -58,16 +58,6 @@ body {
 #leaderboard-table tbody td {
   padding: 8px 12px;
 }
-#instructions button {
-  padding: 10px 20px;
-  margin: 10px;
-  font-size: 16px;
-  background-color: #4caf50; 
-  color: white;
-  border: none; 
-  cursor: pointer; 
-  transition: background-color 0.3s ease;
-}
 
 #result {
   margin-top: 20px;
@@ -75,4 +65,24 @@ body {
   background-color: #f9f9f9;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#paper {
+  background-image: url("https://www.skillshare.com/blog/wp-content/uploads/2021/07/Wrinkle-Paper-Textures-2-Deeezy-4.jpeg");
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+
+#rock {
+  background-image: url("https://imageio.forbes.com/specials-images/imageserve/dv424076/Boulder--Namibia--Africa/960x0.jpg?format=jpg&width=960");
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+
+#scissors {
+  background-image: url("https://www.sliceproducts.com/cdn/shop/products/10544_42f8515e-f918-4b7d-b1e8-d32ebaff0955.jpg?v=1660659479&width=1946");
+  background-size: cover;
+  width: 100px;
+  height: 100px;
 }
